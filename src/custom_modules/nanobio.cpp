@@ -166,8 +166,8 @@ void create_cell_types( void )
 	cell_defaults.name = "tumor cell"; 
 		
 		
-	// make sure the defaults are self-consistent. 
-	cell_defaults.phenotype.sync_to_functions( cell_defaults.functions ); 
+	// In our model, turn default Ki67 to live model 
+	// cell_defaults.phenotype.sync_to_functions( cell_defaults.functions ); 
 
 
 	// add custom data here, if any 
